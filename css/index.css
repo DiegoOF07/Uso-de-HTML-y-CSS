@@ -1,0 +1,162 @@
+*{
+    font-family: 'Segoe UI Semibold';
+}
+
+body{
+    background-color: rgba(255, 218, 193, 0.945);
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ventana{
+    background-color: #3572a3;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 10px 15px 10px #00000033;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.texto{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.imagen{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tabla{
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.tabla td{
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.tabla td:hover{
+    background-color: rgba(189, 229, 252, 0.945);
+}
+
+.tabla td:active{
+    background-color: #3572a3;
+}
+
+.titulo-tabla{
+    text-align: center;
+    font-size: 25px;
+}
+
+.encabezado{
+    background-color: #3572a3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 20px 5px #00000033;
+}
+
+.barra-nav ul li{
+ display: inline;
+}
+
+.barra-nav ul li a{
+    width :150px;
+    border-radius: 16px;
+    border:  2px solid;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color:#000;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px ;
+}
+
+.barra-nav ul li a:active{
+    background-color: rgba(189, 229, 252, 0.945);
+}
+
+.formulario input{
+    width: 85%;
+    height: 4vh;
+    margin-top:15px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    margin-right: 30px;
+    border: 2px solid;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.formulario label{
+    padding-left: 25px;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.entrar a{
+    width :150px;
+    border-radius: 16px;
+    border:  2px solid;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color:#000;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px ;
+}
+
+.entrar button{
+    width :150px;
+    border-radius: 16px;
+    border:  2px solid;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.entrar a:active{/*Uso unico para la parte visual*/
+    background-color: rgba(189, 229, 252, 0.945);
+}
+
+.entrar button:active{
+    background-color: rgba(189, 229, 252, 0.945);
+}
